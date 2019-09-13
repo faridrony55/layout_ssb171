@@ -1,0 +1,50 @@
+ body{
+
+margin: 0;
+
+}
+ .feature-section{background: #efefef;padding: 50px 0;}
+ .container{
+    width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+.feature{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    /* box-shadow: 0 0 12px 0 red; */
+}
+.feature div{
+    background: white;
+    padding: 15px;
+    box-shadow: 7px 7px 12px #9898984f;
+}
+.feature h2{
+    margin: 0;
+    margin-bottom: 10px;
+    color: #676767;
+    letter-spacing: 1px;
+}
+.feature p{
+    margin: 0;
+    font-size: 16px;
+    color: #909090;
+    line-height: 1.4;
+}
+
+
+.portfolio-section{
+    padding: 100px 0;
+}
+.portfolio{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.portfolio img{
+    display: block;
+    max-width: 100%;
+}
